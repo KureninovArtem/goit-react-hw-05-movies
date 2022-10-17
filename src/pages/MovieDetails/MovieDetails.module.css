@@ -1,0 +1,42 @@
+.movieContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.movieImg {
+    margin-right: 30px;
+}
+
+img {
+    width: 250px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 500;
+    color: #2a363b;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 3px;
+    color: #3f51b5;
+    font-weight: 700;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #b7baca;
+}
